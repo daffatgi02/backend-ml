@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Goat Image Classification</title>
+</head>
+<body>
+  <h1>Goat Image Classification</h1>
+  
+  <form method="post" action="/" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*" />
+    <input type="submit" value="Upload Image" />
+  </form>
+  
+  <h2>Prediction:</h2>
+  <% if (prediction !== '') { %>
+    <p><%= prediction %></p>
+  <% } %>
+</body>
+</html>
