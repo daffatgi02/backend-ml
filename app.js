@@ -16,7 +16,7 @@ const interpretOutput = (output) => {
   if (output[0][0] > 0.5) {
     return 'Healthy Goat';
   } else {
-    return 'Pinkeye Goat';
+    return 'Pinkeye Goat sick';
   }
 };
 
